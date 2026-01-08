@@ -6,7 +6,6 @@ The goal is to understand how both renewable energy sources behave across **time
 
 The analysis is performed using **pandas** for data manipulation and **matplotlib** for visualization.
 
----
 ## Objective
 - Analyze hourly energy production trends
 - Compare wind and solar energy behavior
@@ -14,13 +13,11 @@ The analysis is performed using **pandas** for data manipulation and **matplotli
 - Evaluate reliability and variability of each source
 - Understand the benefits of combining wind and solar energy
 
----
 ## Tools Used
 - Python  
 - pandas  
 - matplotlib  
 
----
 ## Data Preparation
 The following pre-processing steps were performed:
 - Converted the `Date` column to datetime format
@@ -28,7 +25,6 @@ The following pre-processing steps were performed:
 - Checked for missing and invalid values
 - Grouped and reshaped data for analysis
 
----
 ## Exploratory Data Analysis
 #### 1. Total Energy Production by Source
    **Question: Which energy source produces more energy overall?**
@@ -76,7 +72,6 @@ The following pre-processing steps were performed:
 - Wind and solar complement each other both daily and seasonally
 - A combined renewable energy system improves reliability
 
----
 ## Conclusion
 - This analysis shows that wind and solar energy are highly complementary renewable sources.
 - While solar energy is limited to daylight hours, wind energy provides consistent production throughout the day and night.
